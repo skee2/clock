@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Clock from './chapter_04/clock';
 import CommentList from './chapter_05/CommentList';
 import Counter from './chapter_06/Counter';
+import Accommodate from './chapter_07/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
   <React.StrictMode>
-    <Counter />
+    <Accommodate />
   </React.StrictMode>
 );
 
